@@ -13,6 +13,10 @@ public class Monopoly {
     private int roundCounter;
 
     public Monopoly() {
+
+        /*
+        ainain
+        */
         System.out.println("Welcome to FEI MONOPOLY");
         int numberPlayers = ZKlavesnice.readInt("Enter number of players: ");
         this.players = new Player[numberPlayers];
